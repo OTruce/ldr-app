@@ -1,0 +1,327 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [com.google.android.material:material:1.12.0] /home/nomad/.gradle/caches/9.3.0/transforms/0cb99ae4d33d6a7ecd45d3332825ad2e/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/nomad/.gradle/caches/9.3.0/transforms/d7673d4c8cb46f45619bd94d8aba0f59/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/nomad/.gradle/caches/9.3.0/transforms/e9c33cd224637b4ad6a96fa95499c607/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/nomad/.gradle/caches/9.3.0/transforms/a9e013063018d486c40029baeb1de1f2/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/nomad/.gradle/caches/9.3.0/transforms/b39309570e6e426e811c5aa0ccf19c8a/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /home/nomad/.gradle/caches/9.3.0/transforms/568e78ed32774c7d033d813cff7d6d38/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.5.4] /home/nomad/.gradle/caches/9.3.0/transforms/fdd76d067606025efe90547ba877cad0/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] /home/nomad/.gradle/caches/9.3.0/transforms/8c9b03daeaf8465954a4b8b3a8753bbf/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] /home/nomad/.gradle/caches/9.3.0/transforms/3235c906a6b2e7f9ea51b770e60312c5/transformed/activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/0b2fcc35f335ff34a43e44f5d3f1949d/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/65ed76fba082b083b6f5e3a35c95d415/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/c80accc0e76d491ddc61602da5e41052/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/nomad/.gradle/caches/9.3.0/transforms/20d4208bafa9fa231177c9cda8c504c2/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /home/nomad/.gradle/caches/9.3.0/transforms/4d2d6bf0342e5002b615ca2ecd9cd2e5/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/83591f05bf1c8c1e69316c14e3177976/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nomad/.gradle/caches/9.3.0/transforms/a102c5ee9334db865631f9e829d3e715/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nomad/.gradle/caches/9.3.0/transforms/af30a039470b1a148e54a2035fb8e5c2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/17ca769677a88e2483616081284a9133/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/ff0086029d257f761eaf0a8309cc5f33/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/e35df2d809b8f417330b7b1303280e37/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/nomad/.gradle/caches/9.3.0/transforms/8973c43d7a39597145bdf5cc4db62ad4/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/09e377d30092490a5ced69b772987b8a/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/nomad/.gradle/caches/9.3.0/transforms/fc0c603b33743afe9f7cc3a547b2ee2f/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/nomad/.gradle/caches/9.3.0/transforms/c336e62a6f52054f385b06bdd1756df4/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/ebd65a5f62ca5699938baa11dde31a13/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/4c251573725ed04a2f2a1296c7b57943/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/f6b54554e0925580d496c95ad36e1225/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/e9f113b02ddd356a8f649260fce864be/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/8c79e8a53b1ecebba0f95e68adc95c5f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/2d784e691492940d1d5079a5a66453b8/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/7b4df1e5a38e16ce1bab74be6245ff12/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/86e4ec0f089923218e5b36cccc74d53d/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/b62a27a3d444a5a2e8c29cb3fedf7445/transformed/core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/nomad/.gradle/caches/9.3.0/transforms/d133914f0d7324cb9cf88350728d6026/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/e10322133a10143d9dd22722116ab8fe/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/f9fc0a2b4dd7bf476ae6a46c5780f0fd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/6eb9f34d97512e73e1f568b56c5044ed/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/30a676fb01bb7bb3bad644b5c4025c88/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/5cb4c11bf898d81a2e7da5166c46cac6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/nomad/.gradle/caches/9.3.0/transforms/e61f8057635c52c1ffb8ac133bf7e852/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/8f938dd79e5a0ac69bd3399fdf0b5ff4/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/1723efad085b626cf82530f99e57dce7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/3856962ac29378de7e3e57efe684ac1a/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:6:5-33:19
+INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:6:5-33:19
+MERGED from [com.google.android.material:material:1.12.0] /home/nomad/.gradle/caches/9.3.0/transforms/0cb99ae4d33d6a7ecd45d3332825ad2e/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /home/nomad/.gradle/caches/9.3.0/transforms/0cb99ae4d33d6a7ecd45d3332825ad2e/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/nomad/.gradle/caches/9.3.0/transforms/d7673d4c8cb46f45619bd94d8aba0f59/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/nomad/.gradle/caches/9.3.0/transforms/d7673d4c8cb46f45619bd94d8aba0f59/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/8c79e8a53b1ecebba0f95e68adc95c5f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/8c79e8a53b1ecebba0f95e68adc95c5f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/f9fc0a2b4dd7bf476ae6a46c5780f0fd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/f9fc0a2b4dd7bf476ae6a46c5780f0fd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/5cb4c11bf898d81a2e7da5166c46cac6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/5cb4c11bf898d81a2e7da5166c46cac6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:10:9-48
+	android:icon
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:12:9-50
+activity#com.example.dashboardapp.SplashActivity
+ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:13:9-22:20
+	android:exported
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:15:13-36
+	android:theme
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:16:13-61
+	android:name
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:14:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.example.dashboardapp.DashboardActivity
+ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:24:13-46
+activity#com.example.dashboardapp.BlankActivity
+ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:26:9-28:40
+	android:exported
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:27:13-42
+activity#com.example.dashboardapp.Login
+ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:29:9-32:58
+	android:windowSoftInputMode
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:32:13-55
+	android:exported
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml:30:13-34
+uses-sdk
+INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml
+INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.12.0] /home/nomad/.gradle/caches/9.3.0/transforms/0cb99ae4d33d6a7ecd45d3332825ad2e/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/nomad/.gradle/caches/9.3.0/transforms/0cb99ae4d33d6a7ecd45d3332825ad2e/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/nomad/.gradle/caches/9.3.0/transforms/d7673d4c8cb46f45619bd94d8aba0f59/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/nomad/.gradle/caches/9.3.0/transforms/d7673d4c8cb46f45619bd94d8aba0f59/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/nomad/.gradle/caches/9.3.0/transforms/e9c33cd224637b4ad6a96fa95499c607/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/nomad/.gradle/caches/9.3.0/transforms/e9c33cd224637b4ad6a96fa95499c607/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/nomad/.gradle/caches/9.3.0/transforms/a9e013063018d486c40029baeb1de1f2/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/nomad/.gradle/caches/9.3.0/transforms/a9e013063018d486c40029baeb1de1f2/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/nomad/.gradle/caches/9.3.0/transforms/b39309570e6e426e811c5aa0ccf19c8a/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/nomad/.gradle/caches/9.3.0/transforms/b39309570e6e426e811c5aa0ccf19c8a/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /home/nomad/.gradle/caches/9.3.0/transforms/568e78ed32774c7d033d813cff7d6d38/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /home/nomad/.gradle/caches/9.3.0/transforms/568e78ed32774c7d033d813cff7d6d38/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] /home/nomad/.gradle/caches/9.3.0/transforms/fdd76d067606025efe90547ba877cad0/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/nomad/.gradle/caches/9.3.0/transforms/fdd76d067606025efe90547ba877cad0/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] /home/nomad/.gradle/caches/9.3.0/transforms/8c9b03daeaf8465954a4b8b3a8753bbf/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /home/nomad/.gradle/caches/9.3.0/transforms/8c9b03daeaf8465954a4b8b3a8753bbf/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /home/nomad/.gradle/caches/9.3.0/transforms/3235c906a6b2e7f9ea51b770e60312c5/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /home/nomad/.gradle/caches/9.3.0/transforms/3235c906a6b2e7f9ea51b770e60312c5/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/0b2fcc35f335ff34a43e44f5d3f1949d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/0b2fcc35f335ff34a43e44f5d3f1949d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/65ed76fba082b083b6f5e3a35c95d415/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/65ed76fba082b083b6f5e3a35c95d415/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/c80accc0e76d491ddc61602da5e41052/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/c80accc0e76d491ddc61602da5e41052/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/nomad/.gradle/caches/9.3.0/transforms/20d4208bafa9fa231177c9cda8c504c2/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/nomad/.gradle/caches/9.3.0/transforms/20d4208bafa9fa231177c9cda8c504c2/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /home/nomad/.gradle/caches/9.3.0/transforms/4d2d6bf0342e5002b615ca2ecd9cd2e5/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/nomad/.gradle/caches/9.3.0/transforms/4d2d6bf0342e5002b615ca2ecd9cd2e5/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/83591f05bf1c8c1e69316c14e3177976/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/83591f05bf1c8c1e69316c14e3177976/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nomad/.gradle/caches/9.3.0/transforms/a102c5ee9334db865631f9e829d3e715/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nomad/.gradle/caches/9.3.0/transforms/a102c5ee9334db865631f9e829d3e715/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nomad/.gradle/caches/9.3.0/transforms/af30a039470b1a148e54a2035fb8e5c2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nomad/.gradle/caches/9.3.0/transforms/af30a039470b1a148e54a2035fb8e5c2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/17ca769677a88e2483616081284a9133/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/17ca769677a88e2483616081284a9133/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/ff0086029d257f761eaf0a8309cc5f33/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/ff0086029d257f761eaf0a8309cc5f33/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/e35df2d809b8f417330b7b1303280e37/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/e35df2d809b8f417330b7b1303280e37/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/nomad/.gradle/caches/9.3.0/transforms/8973c43d7a39597145bdf5cc4db62ad4/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/nomad/.gradle/caches/9.3.0/transforms/8973c43d7a39597145bdf5cc4db62ad4/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/09e377d30092490a5ced69b772987b8a/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/09e377d30092490a5ced69b772987b8a/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/nomad/.gradle/caches/9.3.0/transforms/fc0c603b33743afe9f7cc3a547b2ee2f/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/nomad/.gradle/caches/9.3.0/transforms/fc0c603b33743afe9f7cc3a547b2ee2f/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/nomad/.gradle/caches/9.3.0/transforms/c336e62a6f52054f385b06bdd1756df4/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/nomad/.gradle/caches/9.3.0/transforms/c336e62a6f52054f385b06bdd1756df4/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/ebd65a5f62ca5699938baa11dde31a13/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/ebd65a5f62ca5699938baa11dde31a13/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/4c251573725ed04a2f2a1296c7b57943/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/4c251573725ed04a2f2a1296c7b57943/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/f6b54554e0925580d496c95ad36e1225/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/f6b54554e0925580d496c95ad36e1225/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/e9f113b02ddd356a8f649260fce864be/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/e9f113b02ddd356a8f649260fce864be/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/8c79e8a53b1ecebba0f95e68adc95c5f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/8c79e8a53b1ecebba0f95e68adc95c5f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/2d784e691492940d1d5079a5a66453b8/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/2d784e691492940d1d5079a5a66453b8/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/7b4df1e5a38e16ce1bab74be6245ff12/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/7b4df1e5a38e16ce1bab74be6245ff12/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/86e4ec0f089923218e5b36cccc74d53d/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/86e4ec0f089923218e5b36cccc74d53d/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/b62a27a3d444a5a2e8c29cb3fedf7445/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/b62a27a3d444a5a2e8c29cb3fedf7445/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/nomad/.gradle/caches/9.3.0/transforms/d133914f0d7324cb9cf88350728d6026/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/nomad/.gradle/caches/9.3.0/transforms/d133914f0d7324cb9cf88350728d6026/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/e10322133a10143d9dd22722116ab8fe/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/e10322133a10143d9dd22722116ab8fe/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/f9fc0a2b4dd7bf476ae6a46c5780f0fd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/f9fc0a2b4dd7bf476ae6a46c5780f0fd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/6eb9f34d97512e73e1f568b56c5044ed/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/6eb9f34d97512e73e1f568b56c5044ed/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/30a676fb01bb7bb3bad644b5c4025c88/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/30a676fb01bb7bb3bad644b5c4025c88/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/5cb4c11bf898d81a2e7da5166c46cac6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/5cb4c11bf898d81a2e7da5166c46cac6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/nomad/.gradle/caches/9.3.0/transforms/e61f8057635c52c1ffb8ac133bf7e852/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/nomad/.gradle/caches/9.3.0/transforms/e61f8057635c52c1ffb8ac133bf7e852/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/8f938dd79e5a0ac69bd3399fdf0b5ff4/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/8f938dd79e5a0ac69bd3399fdf0b5ff4/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/1723efad085b626cf82530f99e57dce7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/1723efad085b626cf82530f99e57dce7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/3856962ac29378de7e3e57efe684ac1a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/nomad/.gradle/caches/9.3.0/transforms/3856962ac29378de7e3e57efe684ac1a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/nomad/Desktop/personal_projects/ldr-app/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/8c79e8a53b1ecebba0f95e68adc95c5f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/8c79e8a53b1ecebba0f95e68adc95c5f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/f9fc0a2b4dd7bf476ae6a46c5780f0fd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nomad/.gradle/caches/9.3.0/transforms/f9fc0a2b4dd7bf476ae6a46c5780f0fd/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nomad/.gradle/caches/9.3.0/transforms/fdaf2add523ba0ef0e504c2a93af1ab7/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.example.dashboardapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.dashboardapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/nomad/.gradle/caches/9.3.0/transforms/ca4b71969c0795fd28089d48f300ac33/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/8c79e8a53b1ecebba0f95e68adc95c5f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/8c79e8a53b1ecebba0f95e68adc95c5f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/nomad/.gradle/caches/9.3.0/transforms/8c79e8a53b1ecebba0f95e68adc95c5f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nomad/.gradle/caches/9.3.0/transforms/81ae806615084df1dea8be2db072836e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

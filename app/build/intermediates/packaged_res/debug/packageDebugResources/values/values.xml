@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F5F7FA</color>
+    <color name="black">#000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="icon_tint">#1E88E5</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="primary">#1E88E5</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#7A7A7A</color>
+    <string name="app_name">DashboardApp</string>
+    <string name="attach">Attach</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="devices_list_title">Devices</string>
+    <string name="email_hint">Email</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_otp_required">OTP is required</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_button">Log In</string>
+    <string name="login_subtitle">Log in to continue</string>
+    <string name="my_device">My Device</string>
+    <string name="no_account_prompt">Don\'t have an account? </string>
+    <string name="otp_hint">Enter OTP</string>
+    <string name="otp_request">Request OTP</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="wifi">Wifi</string>
+    <style name="Theme.DashboardApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+    <style name="Theme.DashboardApp.Splash" parent="Theme.DashboardApp">
+        <item name="android:windowBackground">@color/light_blue</item>
+        <item name="android:statusBarColor">@color/light_blue</item>
+    </style>
+</resources>

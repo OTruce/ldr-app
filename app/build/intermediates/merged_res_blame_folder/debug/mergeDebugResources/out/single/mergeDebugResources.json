@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/drawable_ic_paperclip.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/drawable/ic_paperclip.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/layout_activity_blank.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/layout/activity_blank.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/layout_item_device.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/layout/item_device.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/layout_activity_login.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/layout_activity_dashboard.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/drawable_ic_wifi.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/drawable/ic_wifi.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/drawable_ic_splash_logo.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/drawable/ic_splash_logo.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/drawable_ic_chevron_right.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/drawable_ic_bluetooth.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/drawable/ic_bluetooth.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/layout_activity_splash.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.dashboardapp-debug-36:/layout_activity_login.xml.flat",
+        "source": "com.example.dashboardapp-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/drawable_circle_icon_bg_outline.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/drawable/circle_icon_bg_outline.xml"
+    },
+    {
+        "merged": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-debug-36:/drawable_circle_icon_bg.xml.flat",
+        "source": "/home/nomad/.gradle/daemon/9.3.0/com.example.dashboardapp-main-38:/drawable/circle_icon_bg.xml"
+    }
+]

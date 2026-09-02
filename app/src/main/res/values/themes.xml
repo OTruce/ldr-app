@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.DashboardApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.DashboardApp.Splash" parent="Theme.DashboardApp">
+        <item name="android:windowBackground">@color/light_blue</item>
+        <item name="android:statusBarColor">@color/light_blue</item>
+    </style>
+
+</resources>

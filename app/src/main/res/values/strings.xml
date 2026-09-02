@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DashboardApp</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="my_device">My Device</string>
+    <string name="wifi">Wifi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="attach">Attach</string>
+    <string name="devices_list_title">Devices</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_subtitle">Log in to continue</string>
+    <string name="email_hint">Email</string>
+    <string name="otp_hint">Enter OTP</string>
+    <string name="otp_request">Request OTP</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_button">Log In</string>
+    <string name="no_account_prompt">Don\'t have an account? </string>
+    <string name="sign_up">Sign Up</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_otp_required">OTP is required</string>
+</resources>
