@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_locket_screen">
+
+    <!-- Top Action Bar -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/bg_top_bar"
+        android:paddingHorizontal="16dp">
+
+        <ImageView
+            android:id="@+id/btnClose"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_icon_circle"
+            android:padding="9dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/textStackCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:letterSpacing="0.02"
+            android:text="No new moments"
+            android:textColor="#CBD5E1"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!-- History Archive Button -->
+        <ImageView
+            android:id="@+id/btnHistory"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_icon_circle"
+            android:padding="9dp"
+            android:src="@android:drawable/ic_menu_recent_history"
+            app:tint="@color/white" />
+    </RelativeLayout>
+
+    <!-- Center Card Stack Container -->
+    <FrameLayout
+        android:id="@+id/stackContainer"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_below="@id/topBar"
+        android:layout_centerInParent="true">
+
+        <!-- Background Tilted Stack Card (Visual Effect) -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:rotation="-6"
+            android:alpha="0.35"
+            app:cardCornerRadius="44dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@android:color/transparent">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_card_glow" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Front Active Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardFront"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="44dp"
+            app:cardElevation="18dp"
+            app:cardBackgroundColor="@color/gray"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgLocket"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+                <!-- Caption Banner Overlay -->
+               <!-- <View
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/bg_caption_scrim" />
+
+                <TextView
+                    android:id="@+id/textCaption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:paddingHorizontal="18dp"
+                    android:paddingTop="22dp"
+                    android:paddingBottom="18dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:shadowColor="#66000000"
+                    android:shadowDx="0"
+                    android:shadowDy="1"
+                    android:shadowRadius="4"
+                    android:gravity="center" /> -->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stackContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:letterSpacing="0.01"
+        android:textColor="#F1F5F9"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <!-- Reaction Status -->
+    <TextView
+        android:id="@+id/textReactionStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAuthor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:textColor="#FBBF24"
+        android:textSize="13sp" />
+
+    <!-- Floating Circular Reaction Bar (Instants Style) -->
+    <LinearLayout
+        android:id="@+id/layoutReactions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textReactionStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_reaction_pill"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="8dp"
+        android:elevation="4dp">
+
+        <TextView android:id="@+id/rxHeart" style="@style/ReactionCircle" android:text="❤️" />
+        <TextView android:id="@+id/rxHeartEyes" style="@style/ReactionCircle" android:text="😍" />
+        <TextView android:id="@+id/rxLaugh" style="@style/ReactionCircle" android:text="😂" />
+        <TextView android:id="@+id/rxThumbsUp" style="@style/ReactionCircle" android:text="👍" />
+        <TextView android:id="@+id/rxCry" style="@style/ReactionCircle" android:text="😢" />
+    </LinearLayout>
+
+    <!-- Bottom Shutter Button (Takes Camera Picture) -->
+    <FrameLayout
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_shutter_glow"
+            android:alpha="0.85" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_menu_camera"
+            app:fabCustomSize="64dp"
+            app:backgroundTint="#0F172A"
+            app:elevation="0dp"
+            app:borderWidth="0dp"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1041615624230",
+    "project_id": "ldr-app-6871d",
+    "storage_bucket": "ldr-app-6871d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041615624230:android:7c231a8d7f1a015489aee7",
+        "android_client_info": {
+          "package_name": "com.example.dashboardapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxGgd4aRIxsGii1n-83rgNhoPFlMHJmlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

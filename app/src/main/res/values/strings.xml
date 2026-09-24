@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DashboardApp</string>
+    <string name="app_name">Kindred</string>
     <string name="dashboard_title">Dashboard</string>
     <string name="my_device">My Device</string>
     <string name="wifi">Wifi</string>

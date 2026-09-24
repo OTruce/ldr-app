@@ -39,7 +39,7 @@ public class Login extends AppCompatActivity {
 
         // INITIALIZE RETROFIT (This is the missing part!)
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://your-app-name.onrender.com/") // REPLACE WITH YOUR URL
+                .baseUrl("https://ldr-project.onrender.com/") // REPLACE WITH YOUR URL
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -50,70 +50,7 @@ public class Login extends AppCompatActivity {
         buttonLogin.setOnClickListener(v -> attemptLogin());
 
     }
-//    private void requestOTP(){
-//
-//    }
-//    private void attemptLogin() {
-//        String email = editTextEmail.getText() != null ? editTextEmail.getText().toString().trim() : "";
-//        String OTP = editTextOTP.getText() != null ? editTextOTP.getText().toString().trim() : "";
-//
-//        boolean isValid = true;
-//
-//        if (TextUtils.isEmpty(email)) {
-//            layoutEmail.setError(getString(R.string.error_email_required));
-//            isValid = false;
-//        } else {
-//            layoutEmail.setError(null);
-//        }
-//
-//        if (TextUtils.isEmpty(OTP)) {
-//            layoutOtp.setError(getString(R.string.error_otp_required));
-//            isValid = false;
-//        } else {
-//            layoutOtp.setError(null);
-//        }
-//
-//        if (!isValid) {
-//            return;
-//        }
-//
-//        // TODO: replace with real authentication logic
-//        Intent intent = new Intent(Login.this, DashboardActivity.class);
-//        startActivity(intent);
-//        finish();
-//    }
-//}
 
-//    private void requestOTP() {
-//        String email = editTextEmail.getText().toString().trim();
-//        if (TextUtils.isEmpty(email)) {
-//            layoutEmail.setError("Email is required");
-//            return;
-//        }
-//
-//        buttonOTP.setEnabled(false); // Prevent double clicking
-//        buttonOTP.setText("Sending...");
-//
-//        apiService.requestOTP(email).enqueue(new Callback<GenericResponse>() {
-//            @Override
-//            public void onResponse(Call<GenericResponse> call, Response<GenericResponse> response) {
-//                if (response.isSuccessful()) {
-//                    Toast.makeText(Login.this, "OTP sent to your email!", Toast.LENGTH_SHORT).show();
-//                    layoutOtp.setVisibility(View.VISIBLE); // Show OTP field
-//                } else {
-//                    buttonOTP.setEnabled(true);
-//                    buttonOTP.setText("Request OTP");
-//                    Toast.makeText(Login.this, "Email not found", Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//
-//            @Override
-//            public void onFailure(Call<GenericResponse> call, Throwable t) {
-//                buttonOTP.setEnabled(true);
-//                Toast.makeText(Login.this, "Network Error", Toast.LENGTH_SHORT).show();
-//            }
-//        });
-//    }
 
     private void requestOTP() {
         String email = editTextEmail.getText().toString().trim();
@@ -156,87 +93,123 @@ public class Login extends AppCompatActivity {
         });
     }
 
-//    private void attemptLogin() {
-//        String email = editTextEmail.getText().toString().trim();
-//        String otp = editTextOTP.getText().toString().trim();
-//
-//        if (TextUtils.isEmpty(email) || TextUtils.isEmpty(otp)) {
-//            return;
-//        }
-//
-//        apiService.verifyOTP(email, otp).enqueue(new Callback<LoginResponse>() {
-//            @Override
-//            public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
-//                if (response.isSuccessful() && response.body() != null) {
-//                    // SAVE USER DATA LOCALLY
-//                    saveUserSession(response.body().getLdrid(), response.body().getName());
-//
-//                    Intent intent = new Intent(Login.this, DashboardActivity.class);
-//                    startActivity(intent);
-//                    finish();
-//                } else {
-//                    Toast.makeText(Login.this, "Invalid OTP", Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//
-//            @Override
-//            public void onFailure(Call<LoginResponse> call, Throwable t) {
-//                Toast.makeText(Login.this, "Login Failed", Toast.LENGTH_SHORT).show();
-//            }
-//        });
-//    }
-
-    private void attemptLogin() {
+   /** private void attemptLogin() {
         String email = editTextEmail.getText().toString().trim();
         String otp = editTextOTP.getText().toString().trim();
 
         if (TextUtils.isEmpty(otp)) {
-            layoutOtp.setError("Enter the 6-digit code");
+            layoutOtp.setError("Enter code");
+            return;
+        }
+
+        // SAFETY CHECK: Make sure the service exists
+        if (apiService == null) {
+            Toast.makeText(this, "Internal App Error: API not ready", Toast.LENGTH_SHORT).show();
             return;
         }
 
         apiService.verifyOTP(email, otp).enqueue(new Callback<LoginResponse>() {
             @Override
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
+                // Check if the server actually responded with a 200 OK
                 if (response.isSuccessful() && response.body() != null) {
-                    // THE SERVER RETURNED OUR DATA!
-                    String myLdrId = response.body().getLdrid();
-                    String myName = response.body().getName();
 
-                    // 1. Save this data to the phone's "Shared Preferences"
-                    // This makes sure the app remembers who you are even if you close it
-                    saveUserSession(myLdrId, myName, email);
+                    LoginResponse loginData = response.body();
 
-                    // 2. Go to the Dashboard
+                    // SAFETY CHECK: Make sure the server didn't send null values
+                    String myId = loginData.getLdrid() != null ? loginData.getLdrid() : "guest";
+                    String myName = loginData.getName() != null ? loginData.getName() : "User";
+
+                    saveUserSession(myId, myName, email);
+
                     Intent intent = new Intent(Login.this, DashboardActivity.class);
                     startActivity(intent);
                     finish();
                 } else {
-                    Toast.makeText(Login.this, "Incorrect code. Try again.", Toast.LENGTH_SHORT).show();
+                    // This handles 401 Unauthorized or 500 Server Error
+                    Toast.makeText(Login.this, "Invalid Code or Server Error", Toast.LENGTH_SHORT).show();
                 }
             }
 
             @Override
             public void onFailure(Call<LoginResponse> call, Throwable t) {
-                Toast.makeText(Login.this, "Login failed: " + t.getMessage(), Toast.LENGTH_SHORT).show();
+                // This handles network timeouts
+                Toast.makeText(Login.this, "Network Failed: " + t.getMessage(), Toast.LENGTH_LONG).show();
             }
         });
-    }
+    }**/
 
-    // Very important: The app must "remember" who is logged in
-//    private void saveUserSession(String ldrid, String name, String email) {
-//        getSharedPreferences("LDR_PREFS", MODE_PRIVATE)
-//                .edit()
-//                .putString("my_id", ldrid)
-//                .putString("my_name", name)
-//                .apply();
+   private void attemptLogin() {
+       String email = editTextEmail.getText().toString().trim();
+       String otp = editTextOTP.getText().toString().trim();
 
-    private void saveUserSession(String ldrid, String name, String email) {
+       if (TextUtils.isEmpty(otp)) {
+           layoutOtp.setError("Enter code");
+           return;
+       }
+
+       // Use a Log to see what we are sending
+       android.util.Log.d("LDR_DEBUG", "Attempting login for: " + email + " with OTP: " + otp);
+
+       apiService.verifyOTP(email, otp).enqueue(new Callback<LoginResponse>() {
+           @Override
+           public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
+               if (response.isSuccessful() && response.body() != null) {
+                   LoginResponse loginData = response.body();
+
+                   // Log what the server sent back
+                   android.util.Log.d("LDR_DEBUG", "Server Response: " + loginData.getStatus());
+
+                   String myId = loginData.getLdrid();
+                   String myName = loginData.getName();
+                   // Inside onResponse of verifyOTP in Login.java:
+                   String myGender = response.body().getGender(); // "male" or "female"
+                   String myImageUrl = response.body().getImageUrl();
+
+
+                   // If the server sent back nulls, don't crash, just use defaults
+                   if (myId == null) myId = "guest";
+                   if (myName == null) myName = "User";
+                   getSharedPreferences("LDR_PREFS", MODE_PRIVATE)
+                           .edit()
+                           .putString("MY_GENDER", myGender)
+                           .putString("MY_IMAGE_URL", myImageUrl)
+                           .apply();
+
+                   saveUserSession(myId, myName, email,myGender);
+
+                   // Try to move to the next screen
+                   try {
+                       Intent intent = new Intent(Login.this, DashboardActivity.class);
+                       startActivity(intent);
+                       finish();
+                   } catch (Exception e) {
+                       // This will tell you if DashboardActivity is missing from Manifest
+                       android.util.Log.e("LDR_DEBUG", "Failed to open Dashboard: " + e.getMessage());
+                       Toast.makeText(Login.this, "Check Manifest: " + e.getMessage(), Toast.LENGTH_LONG).show();
+                   }
+
+               } else {
+                   Toast.makeText(Login.this, "Invalid Code (Server returned " + response.code() + ")", Toast.LENGTH_SHORT).show();
+               }
+           }
+
+           @Override
+           public void onFailure(Call<LoginResponse> call, Throwable t) {
+               android.util.Log.e("LDR_DEBUG", "Network Failure: " + t.getMessage());
+               Toast.makeText(Login.this, "Network Failed: " + t.getMessage(), Toast.LENGTH_LONG).show();
+           }
+       });
+   }
+
+
+    private void saveUserSession(String ldrid, String name, String email, String gender) {
         getSharedPreferences("LDR_PREFS", MODE_PRIVATE)
                 .edit()
                 .putString("MY_LDR_ID", ldrid)
                 .putString("MY_NAME", name)
                 .putString("MY_EMAIL", email)
+                .putString("MY_GENDER", gender)
                 .putBoolean("IS_LOGGED_IN", true)
                 .apply();
     }

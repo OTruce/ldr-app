@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.dashboardapp-mergeDebugResources-34:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.example.dashboardapp-mergeDebugResources-45:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/nomad/.gradle/caches/9.3.0/transforms/a9e013063018d486c40029baeb1de1f2/transformed/appcompat-1.7.0/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "C:\\Users\\njeng\\.gradle\\caches\\9.3.0\\transforms\\777a6451c7ce7a6bda606017d11b5f0e\\workspace\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",
